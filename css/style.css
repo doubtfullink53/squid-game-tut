@@ -15,8 +15,8 @@
 
 }   
 .moveBtn{
-  /* height:200px;
-    width:200px; */
+   height:200px;
+    width:200px; 
   position:fixed;
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
@@ -26,12 +26,4 @@
   text-shadow: 0 2px 5px rgba(0,0,0,.3);
   transform: translateX(-50%);
  
-}
-.disable-text-selection{
-  -ms-user-select:none;
-  -moz-user-select:none;
-  -webkit-user-select:none;
-  -webkit-touch-callout: none;
-  -khtml-user-select: none;
-   user-select:none;
 }
