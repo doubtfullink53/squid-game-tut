@@ -41,7 +41,7 @@ const loader = new THREE.GLTFLoader();
 
 class Doll {
   constructor() {
-    loader.load("./models/scene.gltf", (gltf) => {
+    loader.load("https://raw.githubusercontent.com/doubtfullink53/squid-game-tut/main/models/scene.gltf", (gltf) => {
       scene.add(gltf.scene);
       gltf.scene.scale.set(0.4, 0.4, 0.4);
       gltf.scene.position.set(0, -1, 0);
